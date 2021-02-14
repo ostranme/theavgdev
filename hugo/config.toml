@@ -1,0 +1,19 @@
+baseURL = "https://theavedev.com/"
+languageCode = "en-us"
+title = "The AVG Dev"
+copyright = "©2021 The AVG Dev."
+enableEmoji=true
+
+[params]
+style = "light"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+dateFormat = "January 2, 2006"  # if unset, default is "2006-01-02"
+logo = "/img/Mark_TheAvgDev.png"  # if you have a logo png
+slogan = ":tada: Above Average Content :tada:"
+
+[params.nav]
+# showCategories = true       # /categories/
+# showTags = true             # /tags/
+
+[[params.nav.custom]]
+title = "Posts"
+url = "/posts"

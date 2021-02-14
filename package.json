@@ -1,0 +1,22 @@
+{
+  "name": "theavgdev",
+  "version": "0.0.1",
+  "description": "Above average content for developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "serve": "cd hugo && hugo server --disableFastRender",
+    "build:hugo": "cd hugo && hugo",
+    "build": "rm -rf public && npm run build:hugo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ostranme/theavgdev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ostranme/theavgdev/issues"
+  },
+  "homepage": "https://github.com/ostranme/theavgdev#readme"
+}
