@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "serve": "hugo server --disableFastRender",
-    "build:hugo": "hugo",
+    "build:hugo": "hugo --gc --minify",
     "build": "npm run build:hugo"
   },
   "repository": {

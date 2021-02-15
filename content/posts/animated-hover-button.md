@@ -1,8 +1,8 @@
 ---
-title: ":star2: A Quick Hover Button"
+title: ":star2: A Quick Animated Hover Effect"
 summary: How to create a magic hover effect on buttons!
 date: "2021-02-04"
-draft: false
+draft: true
 slug: hover-button
 tags:
 - css
