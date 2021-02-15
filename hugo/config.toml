@@ -1,19 +1,64 @@
-baseURL = "https://theavedev.com/"
+baseURL = ""
 languageCode = "en-us"
+DefaultContentLanguage = "en"
 title = "The AVG Dev"
-copyright = "©2021 The AVG Dev."
-enableEmoji=true
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+theme = "anatole"
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
 
 [params]
-style = "light"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+title = "The Average Developer"
+author = "Mark Ostrander"
+copyright = "2020-2021"
+description = "Providing the web with above average content"
+profilePicture = "images/Logo_TheAvgDev.png"
 dateFormat = "January 2, 2006"  # if unset, default is "2006-01-02"
-logo = "/img/Mark_TheAvgDev.png"  # if you have a logo png
-slogan = ":tada: Above Average Content :tada:"
+mainSections = ["posts"]
+images = ["images/Logo_TheAvgDev.png"]
+displayMode = "light"
+disableThemeSwitcher = true # Theme switcher is enabled by default
 
-[params.nav]
-# showCategories = true       # /categories/
-# showTags = true             # /tags/
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/ostranme/theavgdev"
 
-[[params.nav.custom]]
-title = "Posts"
-url = "/posts"
+[[params.socialIcons]]
+icon = "fab fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/theavgdev/"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "twitter"
+url = "https://twitter.com/TheAvgDev"
+
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
