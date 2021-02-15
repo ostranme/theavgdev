@@ -6,6 +6,7 @@ summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
 theme = "anatole"
+staticDir = ["static"]
 
 # Enable Disqus
 #disqusShortname = ""
