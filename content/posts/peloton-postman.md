@@ -171,9 +171,11 @@ If a resource has a lot of data, more than likely the response will have a `page
 - `hasNextPage` boolean field to help identify if there are more pages/results to query from the collection.
 
 ```json
-"pageInfo": {
+{
+  "pageInfo": {
     "endCursor": "MTk==",
     "hasNextPage": true
+  }
 }
 ```
 
