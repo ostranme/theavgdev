@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>postman on The AVG Dev</title><link>/tags/postman/</link><description>Recent content in postman on The AVG Dev</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/postman/index.xml" rel="self" type="application/rss+xml"/><item><title>:bicyclist: Exploring the Unofficial Peloton APIs</title><link>/posts/peloton-postman/</link><pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate><guid>/posts/peloton-postman/</guid><description>Using Postman to explore the &amp;ldquo;Unofficial&amp;rdquo; Peloton APIs</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>postman on The AVG Dev</title>
+    <link>/tags/postman/</link>
+    <description>Recent content in postman on The AVG Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/postman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>:bicyclist: Exploring the Unofficial Peloton APIs</title>
+      <link>/posts/peloton-postman/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/peloton-postman/</guid>
+      <description>Using Postman to explore the &amp;ldquo;Unofficial&amp;rdquo; Peloton APIs</description>
+    </item>
+    
+  </channel>
+</rss>
