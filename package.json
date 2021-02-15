@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "serve": "cd hugo && hugo server --disableFastRender",
-    "build:hugo": "cd hugo && hugo --minify",
+    "serve": "hugo server --disableFastRender",
+    "build:hugo": "hugo --minify",
     "build": "rm -rf hugo/public && npm run build:hugo"
   },
   "repository": {
