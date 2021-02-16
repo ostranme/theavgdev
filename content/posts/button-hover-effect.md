@@ -1,11 +1,12 @@
 ---
-title: ":star2: A Quick Button Hover Effect"
+title: ":crystal_ball: A Quick Button Hover Effect"
 summary: How to create a magic hover effect on buttons!
 date: "2021-02-04"
 draft: false
 slug: hover-button
 tags:
 - css
+- ui
 ---
 
 I’ve always been fascinated by random animations and effects that spice up the user experience. I recently stumbled across a button on website that had a hover effect that caught my eye. I know there are countless tutorials on how to create stylish buttons, so here's another one to add to the mix. Although small and ultimately meaningless I found the button interesting so here's my attempt at recreating it.
@@ -115,4 +116,4 @@ Now let’s add some sizzle. CSS transitions make this pretty easy to do with th
 }
 ```
 
-Viola! A fun, animated button to add to your next web project. Here's a [link](https://codepen.io/ostranme/pen/yLVeawr) to the Codepen I created for reference. Be warned don’t go to crazy with making all buttons animated but this is perfect example for a call to action or even playful buttons to sprinkle into your web apps. 
+Viola! A fun, animated button to add to your next web project. Here's a link to the [repo](https://github.com/ostranme/hover-button) I created for reference. Be warned don’t go to crazy with making all buttons animated but this is perfect example for a call to action or even playful buttons to sprinkle into your web apps. 

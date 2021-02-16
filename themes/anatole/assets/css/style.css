@@ -273,7 +273,7 @@ a:active {
 
 .sidebar .logo-title {
     text-align: center;
-    padding-top: 240px;
+    padding-top: 100px;
     flex: 1;
 }
 
@@ -286,7 +286,7 @@ a:active {
 }
 
 .sidebar .logo-title .title img {
-    width: 127px;
+    width: 227px;
     border-radius: 50%;
 }
 
